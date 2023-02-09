@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 def home (request):
     # return render(request, 'home.html')
-    return render(request, 'home.html', { 'name' : 'Camilo Alvarez'})
+    return render(request, 'home.html', { 'name' : 'Andres Camilo Alvarez'})
 
